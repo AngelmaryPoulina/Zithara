@@ -1,0 +1,61 @@
+
+.custom-table {
+  width: 100%;
+  border-collapse: collapse;
+  border: 2px solid #ddd; /* Border for the entire table */
+}
+h1{
+  text-align: center;
+}
+
+.custom-table th,
+.custom-table td {
+  border: 1px solid #ddd; /* Border for table cells */
+  padding: 8px;
+  text-align: center;
+}
+
+.custom-table th {
+  background-color: #f2f2f2; /* Header background color */
+  text-align: center;
+}
+
+.custom-table tbody tr:nth-child(even) {
+  background-color: #f2f2f2; /* Even row background color */
+}
+
+.custom-table tbody tr:hover {
+  background-color: #ddd; /* Hover color for rows */
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.sort-button {
+  margin-right: 10px;
+}
+
+.pagination {
+  margin-top: 20px;
+}
+
+.search-input {
+  width: 300px;
+}
+
+.button-group {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px; /* Add margin to space it out from the form */
+}
+
+.sort-button {
+  margin: 0 10px; /* Add margin between buttons */
+}
+
+.search-input {
+  width: 300px; /* Set width for the search input */
+  margin: 20px auto; /* Center the input and add margin */
+  display: block;
+}
